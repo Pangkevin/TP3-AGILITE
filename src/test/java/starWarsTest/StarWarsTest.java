@@ -128,4 +128,22 @@ class StarWarsTest {
 		});
 	}
 
+	/**
+	 * Verifie si on peut mettre un même padawan dans la liste d'un même maitre
+	 */
+	@Test
+	public void testDoublonPadawanListMaitre() {
+		Maitre yoda = new Maitre("Yoda", "Yoda", "Jedi");
+
+		Padawan toto = new Padawan("toto", "toto", "Jedi");
+		Padawan coco = new Padawan("coco", "coco", "Jedi");
+		Padawan coco2 = new Padawan("coco", "coco", "Jedi");
+		
+		coco.setMaitre(yoda);
+		toto.setMaitre(yoda);
+		
+		assertEquals(2, yoda.getListPadawan().size());
+
+	}
+
 }

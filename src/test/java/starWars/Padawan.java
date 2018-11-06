@@ -14,7 +14,7 @@ public class Padawan extends Individu {
 	}
 
 	/**
-	 * On va tester si le nouveau maitre est bien diff�rent de l'ancien maitre //
+	 * On va tester si le nouveau maitre est bien diff�rent de l'ancien maitre //
 	 * Nous avons redifini le equals de la classe maitre
 	 * 
 	 * @param maitre
@@ -29,7 +29,11 @@ public class Padawan extends Individu {
 		} else {
 
 			this.maitre = maitre;
-			this.maitre.getListPadawan().add(this);
+			// Permet de ne pas rajouter le même Padawan dans la liste d'un même maitre
+			if (!maitre.getListPadawan().contains(this)) {
+
+				this.maitre.getListPadawan().add(this);
+			}
 		}
 
 	}
@@ -42,6 +46,29 @@ public class Padawan extends Individu {
 			this.maitre = null;
 		}
 
+	}
+
+	// Red�finir les �quals
+
+	@Override
+	public boolean equals(Object test1) {
+		if (test1 == null)
+			return false;
+		if (test1 == this)
+			return true;
+		if (!(test1 instanceof Padawan)) {
+			return false;
+		} else {
+			Padawan test2 = (Padawan) test1;
+
+			if (test2.getNom().equals(this.getNom()) && test2.getPrenom().equals(this.getPrenom())
+					&& test2.getFaction().equals(this.getFaction())) {
+
+				return true;
+			}
+
+		}
+		return false;
 	}
 
 }
