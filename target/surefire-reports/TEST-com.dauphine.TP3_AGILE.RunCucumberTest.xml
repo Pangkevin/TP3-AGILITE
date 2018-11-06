@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="19" failures="0" name="com.dauphine.TP3_AGILE.RunCucumberTest" time="0.209" errors="0" skipped="17">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Ciaossu\eclipse-workspace\TP3Agile\TP3-AGILE"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Ciaossu\eclipse-workspace\TP3Agile\TP3-AGILE"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ciaossu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Ciaossu\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7761932980022342669.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_151/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\composer;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;D:\bigdata\hadoop-2.8.1\bin;C:\Users\Ciaossu\AppData\Local\Programs\Python\Python37-32;C:\Users\Ciaossu\AppData\Local\Programs\Python\Python37-32\libs;C:\Users\Ciaossu\AppData\Local\Microsoft\WindowsApps;D:\PHP;C:\Users\Ciaossu\AppData\Roaming\Composer\vendor\bin;C:\curl-7.61.1-win64-mingw\bin;C:\Program Files\Java\jdk1.8.0_151;D:\bigdata\hadoop-2.8.1\bin;;C:\Program Files\Eclipse\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Ciaossu"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ciaossu"/>
+    <property name="java.class.path" value="C:\Program Files\Eclipse\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Ciaossu\eclipse-workspace\TP3Agile\TP3-AGILE\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="US 1 - Creer un Padawan" name="Cr�ation d&apos;un padawan" time="0.189"/>
+  <testcase classname="US 1 - Creer un Padawan" name="V�rifier l&apos;age du padawan" time="0.002"/>
+  <testcase classname="US 1 - Creer un Padawan" name="V�rifier l&apos;age du padawan" time="0.003">
+    <skipped/>
+    <system-out>
+  @tag @tag2
+  Scenario Outline: V?rifier l&apos;age du padawan                                      &amp;#27;[90m# com/dauphine/TP3_AGILE/US 1 - Creer un padawan.feature:30&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mPour pouvoir ins?rer un age au padawan, il faut lui donner une valeur 27&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mle cr?ateur d&apos;univers valide l&apos;age du padawan&amp;#27;[0m                             &amp;#27;[90m# CreationPadawan.le_cr_ateur_d_univers_valide_l_age_du_padawan()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36ml&apos;age doit ?tre obligatoirement sup?rieur ? O&amp;#27;[0m                             &amp;#27;[90m# CreationPadawan.l_age_doit_tre_obligatoirement_sup_rieur_O()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="US 2 - Cr�er un ma�tre" name="Cr�ation d&apos;un ma�tre" time="0.001">
+    <skipped/>
+    <system-out>
+@tag
+Feature: US 2 - Cr?er un ma?tre
+  I want to use this template for my feature file
+
+En tant que createur d&apos;univers
+Je veux pouvoir creer un maitre Jedi qui poss?de un nom, prenom, faction et un age
+afin d enrichir l&apos;univers star wars
+
+  @tag1
+  Scenario Outline: Cr?ation d&apos;un ma?tre &amp;#27;[90m# com/dauphine/TP3_AGILE/US 2 - Creer un maitre.feature:12&amp;#27;[0m
+    &amp;#27;[36mGiven La cr?ation d&apos;un ma?tre poss?dant un &lt;nom&gt; &lt;prenom&gt; &lt;faction&gt;&amp;#27;[0m
+    &amp;#27;[36mWhen le cr?ateur d&apos;univers valide la cr?ation d&apos;un ma?tre apr?s avoir renseign? ces informations&amp;#27;[0m
+    &amp;#27;[36mThen ce nom, pr?nom et faction sont attribu?s au ma?tre&amp;#27;[0m
+
+    Examples: 
+
+  @tag @tag1
+  Scenario Outline: Cr?ation d&apos;un ma?tre                                                             &amp;#27;[90m# com/dauphine/TP3_AGILE/US 2 - Creer un maitre.feature:19&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mLa cr?ation d&apos;un ma?tre poss?dant un Kenobi Obiwan Jedi&amp;#27;[0m                                    &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mle cr?ateur d&apos;univers valide la cr?ation d&apos;un ma?tre apr?s avoir renseign? ces informations&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mce nom, pr?nom et faction sont attribu?s au ma?tre&amp;#27;[0m                                          &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="US 2 - Cr�er un ma�tre" name="Cr�ation d&apos;un ma�tre" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 2 - Cr�er un ma�tre" name="Cr�ation d&apos;un ma�tre" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 2 - Cr�er un ma�tre" name="V�rifier l&apos;age du ma�tre" time="0">
+    <skipped/>
+    <system-out>
+  @tag2
+  Scenario Outline: V?rifier l&apos;age du ma?tre &amp;#27;[90m# com/dauphine/TP3_AGILE/US 2 - Creer un maitre.feature:22&amp;#27;[0m
+    &amp;#27;[36mGiven Pour pouvoir ins?rer un age au ma?tre, il faut lui donner une valeur &lt;age&gt;&amp;#27;[0m
+    &amp;#27;[36mWhen le cr?ateur d&apos;univers valide l&apos;age du ma?tre&amp;#27;[0m
+    &amp;#27;[36mThen l&apos;age doit ?tre obligatoirement sup?rieur ? O&amp;#27;[0m
+
+    Examples: 
+
+  @tag @tag2
+  Scenario Outline: V?rifier l&apos;age du ma?tre                                      &amp;#27;[90m# com/dauphine/TP3_AGILE/US 2 - Creer un maitre.feature:29&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mPour pouvoir ins?rer un age au ma?tre, il faut lui donner une valeur -5&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mle cr?ateur d&apos;univers valide l&apos;age du ma?tre&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36ml&apos;age doit ?tre obligatoirement sup?rieur ? O&amp;#27;[0m                            &amp;#27;[90m# CreationPadawan.l_age_doit_tre_obligatoirement_sup_rieur_O()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="US 2 - Cr�er un ma�tre" name="V�rifier l&apos;age du ma�tre" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 2 - Cr�er un ma�tre" name="V�rifier l&apos;age du ma�tre" time="0.001">
+    <skipped/>
+    <system-out>
+  @tag @tag2
+  Scenario Outline: V?rifier l&apos;age du ma?tre                                      &amp;#27;[90m# com/dauphine/TP3_AGILE/US 2 - Creer un maitre.feature:30&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mPour pouvoir ins?rer un age au ma?tre, il faut lui donner une valeur 27&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mle cr?ateur d&apos;univers valide l&apos;age du ma?tre&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36ml&apos;age doit ?tre obligatoirement sup?rieur ? O&amp;#27;[0m                            &amp;#27;[90m# CreationPadawan.l_age_doit_tre_obligatoirement_sup_rieur_O()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="US 2 - Cr�er un ma�tre" name="V�rifier l&apos;age du ma�tre" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Attribuer un maitre a un padawan" time="0.001">
+    <skipped/>
+    <system-out>
+@tag
+Feature: US 3 - Pour un padawan pouvoir lui attribuer un maitre
+En tant que createur d univers, je veux pouvoir attribuer un maitre ? un padawan
+
+  @tag @tag1
+  Scenario: Attribuer un maitre a un padawan                                 &amp;#27;[90m# com/dauphine/TP3_AGILE/US 3 - Pour un padawan pouvoir lui attribuer un maître.feature:9&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mun padawan et un maitre existant&amp;#27;[0m                                   &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mle createur d univers valide l attribution d&apos;un maitre a un padawan&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mce maitre est attribue au padawan&amp;#27;[0m                                   &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Attribuer un maitre a un padawan" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Attribuer un maitre a un padawan" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Attribuer un meme maitre (meme nom et prenom) a un padawan" time="0.001">
+    <skipped/>
+    <system-out>
+  @tag @tag2
+  Scenario: Attribuer un meme maitre (meme nom et prenom) a un padawan            &amp;#27;[90m# com/dauphine/TP3_AGILE/US 3 - Pour un padawan pouvoir lui attribuer un maître.feature:15&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mun padawan et un maitre existant&amp;#27;[0m                                        &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mle createur d univers valide l attribution d&apos;un meme maitre a un padawan&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mce meme maitre n&apos;est pas attribu? au padawan&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Attribuer un meme maitre (meme nom et prenom) a un padawan" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Attribuer un meme maitre (meme nom et prenom) a un padawan" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Connaitre la liste des padawans d&apos;un maitre" time="0.001">
+    <skipped/>
+    <system-out>
+  @tag @tag3
+  Scenario: Connaitre la liste des padawans d&apos;un maitre                        &amp;#27;[90m# com/dauphine/TP3_AGILE/US 3 - Pour un padawan pouvoir lui attribuer un maître.feature:21&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mdes padawan et un maitre existant&amp;#27;[0m                                    &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mle createur d univers a rattache 0 ou plus padawans a un maitre&amp;#27;[0m       &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mLa liste des padawans d&apos;un maitre contient bien ses padawans rajoutes&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Connaitre la liste des padawans d&apos;un maitre" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="US 3 - Pour un padawan pouvoir lui attribuer un maitre" name="Connaitre la liste des padawans d&apos;un maitre" time="0.001">
+    <skipped/>
+  </testcase>
+</testsuite>
